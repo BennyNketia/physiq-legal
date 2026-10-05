@@ -22,73 +22,105 @@
     </header>
 
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: May 12, 2026</p>
+    <p class="updated">Last updated: October 5, 2026</p>
 
     <h2>1. Overview</h2>
-    <p>This Policy describes what we collect, how we use it, and the choices you have. We designed Physiq to minimize data collection and to keep your physique data under your control.</p>
+    <p>This Policy describes what we collect, how we use it, and the choices you have. We designed Physiq to minimize data collection and to keep your physique and nutrition data under your control.</p>
 
     <h2>2. Data We Collect</h2>
     <ul>
       <li><strong>Account data:</strong> email, display name, profile photo, gender (optional).</li>
-      <li><strong>Scan data:</strong> photos you submit for analysis, derived measurements (estimated body fat %, muscle distribution, posture markers), and scan timestamps.</li>
+      <li><strong>Scan data:</strong> photos you submit for physique analysis, derived measurements (estimated body fat %, muscle distribution, posture markers), and scan timestamps.</li>
       <li><strong>Health inputs:</strong> weight logs, height, goals.</li>
-      <li><strong>Usage data:</strong> feature interactions, session duration, crash logs, device model, OS version, app version.</li>
+      <li><strong>Nutrition data:</strong> meals you log (meal name, food items, amounts, estimated calories and macronutrients, servings, and the date and time logged), feedback you give on meal estimates, water intake entries, and your daily nutrition and water goals and preferred units.</li>
+      <li><strong>Meal photos:</strong> photos of food you submit for nutrition estimates, and a small thumbnail of each logged meal.</li>
+      <li><strong>Usage data:</strong> feature interactions, session duration, crash logs, device model, OS version, app version, and a daily count of meal scans used to enforce scan limits.</li>
       <li><strong>Subscription data:</strong> handled by Apple — we receive only a verification token, never your payment details.</li>
     </ul>
 
-    <h2>3. How We Use Data</h2>
+    <h2>3. Apple Health</h2>
+    <p>If you choose to connect Apple Health, Physiq requests permission to <strong>read</strong> your steps, active energy burned, and body weight. Physiq never writes data to Apple Health.</p>
     <ul>
-      <li>Generate your scan analysis and coaching recommendations.</li>
-      <li>Track your progress and milestones over time.</li>
-      <li>Improve scan accuracy, only if you opt in.</li>
+      <li><strong>Stays on your device:</strong> Apple Health data is read and displayed on your iPhone only. It is not sent to our servers or to any third party.</li>
+      <li><strong>How it's used:</strong> steps and active energy are shown alongside your nutrition log. Body weight is used only when you ask Physiq to recalculate your nutrition goals; if you save the new goals, only the resulting goal numbers are stored — your weight from Apple Health is not.</li>
+      <li><strong>Never for advertising:</strong> Apple Health data is never used for advertising or marketing, never sold, never shared with data brokers or other third parties, and never used to train or improve AI models.</li>
+      <li><strong>Your control:</strong> you can review or revoke Physiq's access at any time in iOS Settings → Health → Data Access &amp; Devices → Physiq.</li>
+    </ul>
+    <p>To avoid asking repeatedly, we store the time the Apple Health connection screen was shown to you. This record contains no health data.</p>
+
+    <h2>4. How We Use Data</h2>
+    <ul>
+      <li>Generate your physique scan analysis and coaching recommendations.</li>
+      <li>Generate estimated calories and macronutrients from meal photos, and keep your food and water log.</li>
+      <li>Track your progress, goals, and milestones over time.</li>
+      <li>Improve scan accuracy, only if you opt in. Apple Health data is never used for this.</li>
       <li>Send notifications you've enabled.</li>
-      <li>Detect abuse and prevent fraud.</li>
+      <li>Enforce usage limits, detect abuse, and prevent fraud.</li>
     </ul>
 
-    <h2>4. How We Store Scans</h2>
-    <p>Photos are encrypted in transit (TLS) and at rest (AES-256). By default, raw photos are retained for the duration of your account; derived numerical measurements are retained for your progress history. You can delete all scans at any time from your scan history.</p>
+    <h2>5. AI Processing</h2>
+    <p>Physique and meal analysis is performed using a third-party AI service provider. When you submit a photo for analysis, the photo is sent from our servers to that provider solely to generate your results. Our provider processes this data under terms that prohibit using it to train its models, and may retain it for a limited period only for abuse and safety monitoring. We do not send your name, email, or Apple Health data with these requests.</p>
+    <p>Nutrition values are AI-generated estimates, not lookups from a verified nutrition database. You can review and edit every item before or after logging a meal.</p>
 
-    <h2>5. Sharing</h2>
+    <h2>6. How We Store Photos</h2>
+    <p>Photos are encrypted in transit (TLS) and at rest (AES-256), and stored in private storage accessible only to your account.</p>
+    <ul>
+      <li><strong>Physique scan photos:</strong> retained for the duration of your account; derived measurements are retained for your progress history. You can delete scans at any time from your scan history.</li>
+      <li><strong>Meal photos:</strong> the full-size photo is automatically deleted 7 days after upload. A small thumbnail is kept so you can recognize the meal in your log, until you delete that meal or your account.</li>
+    </ul>
+
+    <h2>7. Sharing</h2>
     <p>We do not sell your data. We share data only with:</p>
     <ul>
-      <li>Service providers (cloud hosting, crash reporting, email delivery) under strict data-processing agreements.</li>
+      <li>Service providers (cloud hosting and database, AI analysis, crash reporting, email delivery) under data-processing agreements, only as needed to provide the service.</li>
       <li>Legal authorities when required by valid legal process.</li>
       <li>You, via the Share my progress feature, only when you explicitly initiate a share.</li>
     </ul>
 
-    <h2>6. Your Rights</h2>
+    <h2>8. Your Rights</h2>
     <p>You can:</p>
     <ul>
       <li>Access and download your data on request.</li>
-      <li>Correct your profile data.</li>
-      <li>Delete your account and all associated data. Deletion is permanent and propagates to backups within 30 days.</li>
+      <li>Correct your profile data, and edit or delete any logged meal or water entry.</li>
+      <li>Delete your account and all associated data, including scans, meals, water logs, goals, and all photos. Deletion is permanent and propagates to backups within 30 days.</li>
+      <li>Disconnect Apple Health at any time in iOS Settings.</li>
       <li>Opt out of analytics and personalization.</li>
     </ul>
-    <p>EU/UK users additionally have rights under GDPR; California users under CCPA. Contact <a href="mailto:stimtroop@gmail.com">stimtroop@gmail.com</a> to exercise them.</p>
+    <p>EU/UK users additionally have rights under GDPR; California users under CCPA; and residents of states with consumer health data laws (such as Washington and Nevada) have rights under those laws, including the right to access, delete, and withdraw consent for the collection of consumer health data. Contact <a href="mailto:stimtroop@gmail.com">stimtroop@gmail.com</a> to exercise them.</p>
 
-    <h2>7. Children</h2>
+    <h2>9. Children</h2>
     <p>Physiq is not intended for users under 16. We do not knowingly collect data from children under 13. If you believe a child has provided us data, contact <a href="mailto:stimtroop@gmail.com">stimtroop@gmail.com</a> for prompt deletion.</p>
 
-    <h2>8. Sensitive Categories</h2>
-    <p>Body photos and physique measurements may be considered sensitive personal information in some jurisdictions. We treat all scan data with elevated protections: encrypted storage, restricted internal access, and no use for advertising — ever.</p>
+    <h2>10. Sensitive Categories</h2>
+    <p>Body photos, physique measurements, nutrition logs, and Apple Health data may be considered sensitive or consumer health information in some jurisdictions. We treat this data with elevated protections: encrypted storage, restricted internal access, and no use for advertising — ever.</p>
 
-    <h2>9. International Transfers</h2>
+    <h2>11. International Transfers</h2>
     <p>Data may be processed in the United States and other countries where our service providers operate. We rely on Standard Contractual Clauses for transfers from the EEA/UK.</p>
 
-    <h2>10. Security</h2>
+    <h2>12. Security</h2>
     <p>We use industry-standard safeguards including encryption, access controls, and regular security reviews. No system is 100% secure; in the event of a breach affecting your data we will notify you within 72 hours where required by law.</p>
 
-    <h2>11. Retention</h2>
-    <p>Account data: until you delete your account. Scan photos: until you delete them or your account. Derived measurements: until account deletion. Crash logs: 90 days.</p>
+    <h2>13. Retention</h2>
+    <ul>
+      <li><strong>Account data:</strong> until you delete your account.</li>
+      <li><strong>Physique scan photos:</strong> until you delete them or your account.</li>
+      <li><strong>Derived measurements:</strong> until account deletion.</li>
+      <li><strong>Meals, water logs, and nutrition goals:</strong> until you delete them or your account.</li>
+      <li><strong>Full-size meal photos:</strong> 7 days.</li>
+      <li><strong>Meal thumbnails:</strong> until you delete the meal or your account.</li>
+      <li><strong>Daily scan counts:</strong> until account deletion.</li>
+      <li><strong>Apple Health data:</strong> not stored by us.</li>
+      <li><strong>Crash logs:</strong> 90 days.</li>
+    </ul>
 
-    <h2>12. Cookies & Tracking</h2>
+    <h2>14. Cookies &amp; Tracking</h2>
     <p>Physiq does not use third-party advertising cookies or trackers.</p>
 
-    <h2>13. Changes</h2>
+    <h2>15. Changes</h2>
     <p>We will notify you in-app of material changes to this Policy at least 14 days before they take effect.</p>
 
     <div class="contact-card">
-      <h2>14. Contact</h2>
+      <h2>16. Contact</h2>
       <p>For privacy questions, data requests, or any concerns about this Policy:</p>
       <a class="email-link" href="mailto:stimtroop@gmail.com">✉ stimtroop@gmail.com</a>
     </div>
